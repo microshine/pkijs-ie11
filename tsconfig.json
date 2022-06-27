@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "strict": true,
+    "outDir": "build",
+    "baseUrl": ".",
+    "paths": {
+      "https://unpkg.com/pkijs?module": [
+        "node_modules/pkijs"
+      ],
+      "https://unpkg.com/pvtsutils?module": [
+        "node_modules/pvtsutils"
+      ]
+    }
+  }
+}
